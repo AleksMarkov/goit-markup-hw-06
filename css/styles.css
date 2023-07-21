@@ -69,7 +69,7 @@ img {
   color: var(--IRIS);
   margin-right: 76px;
 }
-.header > .container {
+.header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
