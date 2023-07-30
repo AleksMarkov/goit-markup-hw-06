@@ -193,7 +193,7 @@ img {
 .features-item {
   width: calc((100% - 72px) / 4);
 }
-.features-ikon {
+.features-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -256,6 +256,8 @@ img {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-item-id {
   padding: 32px 0;
@@ -275,6 +277,31 @@ img {
   letter-spacing: 0.02em;
   color: var(--SLATE);
   text-align: center;
+}
+.socialnet-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.socialnet-item {
+  width: 40px;
+  height: 40px;
+}
+.socialnet-icon {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socialnet-icon:hover,
+.socialnet-icon:focus {
+  background-color: #404bbf;
+}
+.socialnet-icon-svg {
+  fill: #f4f4fd;
 }
 .footer {
   background-color: var(--NAVYBLUE);
