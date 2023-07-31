@@ -288,7 +288,8 @@ img {
   width: 40px;
   height: 40px;
 }
-.socialnet-icon {
+.socialnet-icon,
+.socialnet-icon-footer {
   width: 100%;
   height: 100%;
   background-color: #4d5ae5;
@@ -396,6 +397,8 @@ img {
 .footer-social > .socialnet-list {
   display: flex;
   gap: 16px;
+}
+.socialnet-icon-footer {
 }
 .socialnet-icon-footer:hover {
   background-color: #31d0aa;
