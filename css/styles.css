@@ -397,10 +397,10 @@ img {
   display: flex;
   gap: 16px;
 }
-.socialnet-icon-svgfooter:hover {
+.socialnet-icon-footer:hover {
   background-color: #31d0aa;
 }
-.socialnet-icon-svgfooter:focus {
+.socialnet-icon-footer:focus {
   background-color: #31d0aa;
 }
 .socialnet-icon-svgfooter {
