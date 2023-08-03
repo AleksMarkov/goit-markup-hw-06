@@ -571,7 +571,7 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.layout-list-kart:hover .type-text {
+.layout-list-kart:hover .type-description {
   transform: translateY(0%);
 }
 
