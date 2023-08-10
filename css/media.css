@@ -42,10 +42,16 @@
   .features-item-text {
     font-weight: 400;
   }
+  .tasks {
+    padding-bottom: 120px;
+  }
   .tasks-title {
     display: block;
   }
   .tasks-list {
     display: flex;
+  }
+  .team {
+    padding: 120px 0;
   }
 }
