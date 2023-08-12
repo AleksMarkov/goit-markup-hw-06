@@ -2,6 +2,10 @@
   .footer-input {
     width: 290px;
   }
+  .modal-window {
+    width: 320px;
+    padding: 72px 8px 24px 8px;
+  }
 }
 @media screen and (min-width: 428px) {
   .container {
@@ -63,6 +67,10 @@
   }
   .footer-input {
     width: 264px;
+  }
+  .modal-window {
+    width: 408px;
+    padding: 72px 25px 24px 23px;
   }
 }
 @media screen and (min-width: 1158px) {
@@ -160,5 +168,8 @@
     gap: 24px;
     height: 312;
     flex-wrap: nowrap;
+  }
+  .modal-window {
+    padding: 72px 24px 24px 24px;
   }
 }
