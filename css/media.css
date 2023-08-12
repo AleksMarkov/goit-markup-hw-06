@@ -15,9 +15,27 @@
   .container {
     max-width: 768px;
   }
+
   .hero {
     height: 436px;
+    background-image: linear-gradient(
+        rgba(17, 17, 17, 0.4),
+        rgba(17, 17, 17, 0.4)
+      ),
+      url(../images/people-office-tab.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+
   .hero-title {
     font-size: 56px;
     height: 120px;
@@ -88,6 +106,18 @@
       url(../images/people-office.jpg);
     max-width: 1440px;
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(17, 17, 17, 0.4),
+          rgba(17, 17, 17, 0.4)
+        ),
+        url(../images/people-office-2x.jpg);
+    }
+  }
+
   .hero-title {
     margin: 0 auto 48px;
   }
