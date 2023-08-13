@@ -127,6 +127,10 @@
   .layout-list-kart {
     width: calc((100% - 24px) / 2);
   }
+  .layout-item {
+    width: 356px;
+    height: 300px;
+  }
 }
 @media screen and (min-width: 1158px) {
   .container {
@@ -274,5 +278,9 @@
   }
   .layout-list-kart {
     width: calc((100% - 48px) / 3);
+  }
+  .layout-item {
+    width: 360px;
+    height: 300px;
   }
 }
