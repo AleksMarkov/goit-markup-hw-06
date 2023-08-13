@@ -186,8 +186,8 @@ img {
   (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
-        rgba(17, 17, 17, 0.4),
-        rgba(17, 17, 17, 0.4)
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-mob-2x.jpg);
   }
@@ -278,7 +278,7 @@ img {
   display: none;
 }
 .tasks-list {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
   display: none;
 }

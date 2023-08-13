@@ -35,8 +35,8 @@
   .hero {
     height: 436px;
     background-image: linear-gradient(
-        rgba(17, 17, 17, 0.4),
-        rgba(17, 17, 17, 0.4)
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
       ),
       url(../images/people-office-tab.jpg);
   }
@@ -45,8 +45,8 @@
     (min-resolution: 2dppx) {
     .hero {
       background-image: linear-gradient(
-          rgba(17, 17, 17, 0.4),
-          rgba(17, 17, 17, 0.4)
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-tab-2x.jpg);
     }
@@ -165,8 +165,8 @@
     (min-resolution: 2dppx) {
     .hero {
       background-image: linear-gradient(
-          rgba(17, 17, 17, 0.4),
-          rgba(17, 17, 17, 0.4)
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
         ),
         url(../images/people-office-2x.jpg);
     }
