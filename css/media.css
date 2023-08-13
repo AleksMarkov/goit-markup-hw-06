@@ -15,7 +15,20 @@
   .container {
     max-width: 768px;
   }
-
+  .header-menu-list {
+    display: flex;
+  }
+  .header-address-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+  }
+  .header-logo {
+    margin-right: 120px;
+  }
+  .menu-open-btn {
+    display: none;
+  }
   .hero {
     height: 436px;
     background-image: linear-gradient(
@@ -95,6 +108,20 @@
   .container {
     max-width: 1158px;
     margin: 0 auto;
+  }
+  .header-menu-list {
+    display: flex;
+  }
+  .header-address-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+  .menu-open-btn {
+    display: none;
   }
   .hero {
     height: 600px;
