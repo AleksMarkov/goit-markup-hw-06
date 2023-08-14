@@ -6,6 +6,18 @@
     width: 320px;
     padding: 72px 8px 24px 8px;
   }
+  .mob-menu {
+    padding: 80px 24px 40px;
+  }
+  .mob-socialnet-list {
+    gap: 30px;
+  }
+  .mob-address-link.link:hover {
+    font-size: 28px;
+  }
+  .mob-address-link.link:focus {
+    font-size: 28px;
+  }
 }
 @media screen and (min-width: 428px) {
   .container {
@@ -91,9 +103,7 @@
   .footer-form {
     gap: 24px;
   }
-  .footer-shell {
-    /* margin-right: 24px; */
-  }
+
   .footer-logo,
   .social-media,
   .footer-subscribe-content {
