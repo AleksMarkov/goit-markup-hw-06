@@ -157,6 +157,7 @@ img {
 .menu-open-btn {
   border: none;
   padding: 0;
+  background-color: var(--WHITE);
 }
 .menu-open-icon {
   display: flex;
@@ -233,7 +234,6 @@ img {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* text-transform: capitalize; */
 }
 .mob-address-link.link:focus {
   color: var(--OCEAN);
@@ -241,7 +241,6 @@ img {
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  /* text-transform: capitalize; */
 }
 .mob-socialnet-list {
   display: flex;
