@@ -1,3 +1,12 @@
+@media screen and (max-height: 795px) {
+  .modal-window {
+    top: 20px;
+    transform: translate(-50%) scaleY(1);
+  }
+  .data-modal {
+    overflow: scroll;
+  }
+}
 @media screen and (max-width: 427px) {
   .footer-input {
     width: 290px;
@@ -37,6 +46,13 @@
     display: flex;
     justify-content: flex-end;
     gap: 12px;
+  }
+  .header-address-link {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--SLATE);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .header-logo {
     margin-right: 120px;
@@ -96,9 +112,12 @@
     padding: 96px 0;
   }
   .footer-conteiner {
+    width: 584px;
     gap: 72px 24px;
     justify-content: flex-start;
-    padding-left: 108px;
+  }
+  .footer-text {
+    width: 268px;
   }
   .footer-form {
     gap: 24px;
@@ -160,6 +179,13 @@
 
   .header-logo {
     margin-right: 76px;
+  }
+  .header-address-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--SLATE);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .menu-open-btn {
     display: none;
@@ -237,6 +263,7 @@
     padding: 100px 0;
   }
   .footer-conteiner {
+    width: 1128px;
     justify-content: center;
     flex-wrap: nowrap;
     gap: 0;
@@ -247,7 +274,7 @@
     margin-right: 120px;
   }
   .footer-text {
-    max-width: 264px;
+    width: 268px;
   }
   .footer-logo {
     display: inline-block;

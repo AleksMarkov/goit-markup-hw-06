@@ -33,6 +33,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--WHITE);
+  /* background-color: red; */
 }
 img {
   display: block;
@@ -125,6 +126,12 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
 }
+.header-menu-link.studio,
+.header-menu-link.portfolio,
+.mob-menu-link.studio,
+.mob-menu-link.portfolio {
+  color: var(--OCEAN);
+}
 .portfolio::after {
   content: "";
   position: absolute;
@@ -163,6 +170,7 @@ img {
   display: flex;
   stroke: var(--NAVYBLUE);
   background-color: var(--WHITE);
+  align-items: end;
 }
 .mob-menu {
   position: fixed;
